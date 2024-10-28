@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fitz Photography</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="gallery-styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<script>
+  $(function(){
+    $("#nav-placeholder").load("nav.html");
+  });
+</script>
+<div class="photo-grid" style="height:150vh">
+  <div class="grid-item large">
+    <img src="images/mile-gallery/bus.jpeg">
+  </div>
+
+  <div class="grid-item large-tall">
+    <img src="images/mile-gallery/in-the-sunlight.jpeg">
+  </div>
+
+  <div class="grid-item medium-wide">
+    <img src="images/mile-gallery/group-line.png">
+  </div>
+
+  <div class="grid-item medium-wide">
+    <img src="images/mile-gallery/chatting.png">
+  </div>
+
+  <div class="grid-item large-tall">
+    <img src="images/mile-gallery/couple.jpeg">
+  </div>
+
+  <div class="grid-item large">
+    <img src="images/mile-gallery/in-the-woods.png">
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fitz Photography</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="gallery-styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<script>
+  $(function(){
+    $("#nav-placeholder").load("nav.html");
+  });
+</script>
+<div class="photo-grid" style="height:200vh">
+  <div class="grid-item large-tall">
+    <img src="images/volleyball-gallery/action-shot.png" loading="lazy">
+  </div>
+
+  <div class="grid-item medium-wide">
+    <img src="images/volleyball-gallery/huddle.png" loading="lazy">
+  </div>
+
+  <div class="grid-item large">
+    <img src="images/volleyball-gallery/far-spike.png" loading="lazy">
+  </div>
+
+  <div class="grid-item large">
+    <img src="images/volleyball-gallery/huddle-two.png" loading="lazy">
+  </div>
+
+  <div class="grid-item large" style="grid-row: span 6">
+    <img src="images/volleyball-gallery/spike.png" loading="lazy">
+  </div>
+
+  <div class="grid-item large-tall">
+    <img src="images/volleyball-gallery/pass.png" loading="lazy">
+  </div>
+
+</div>
+</body>
+</html>
