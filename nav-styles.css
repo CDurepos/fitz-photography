@@ -82,7 +82,7 @@
 /* SOCIAL LINKS, FOOTER OF side-nav */
 #nav-footer {
     height: 10vh;
-    width: var(--nav-width);
+    width: inherit;
 
     position: fixed;
     bottom: 0;
@@ -109,14 +109,14 @@
 
 /* TOP NAV-BAR STYLE RULES */
 #top-nav {
-    z-index: 3;
+    z-index: 2;
 
-    width: 90vw;
+    width: 100vw;
     height: 10vh;
 
     position: fixed;
     top: 0;
-    left: 10vw;
+    left: 0;
 
     background: var(--top-nav-bg);
 
@@ -150,10 +150,10 @@
     margin-right: 2.5vw;
 }
 
-
-
 @font-face {
     font-family: 'Playfair Display';
     font-display: swap;
 }
+
+
 
