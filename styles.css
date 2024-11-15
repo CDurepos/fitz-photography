@@ -308,7 +308,7 @@ body {
 
     #side-nav {
         display: none;
-        width: calc(var(--nav-width) * 2);
+        width: calc(var(--nav-width) * 3);
         transition: all 0.2s ease-in-out;
     }
 
@@ -323,6 +323,29 @@ body {
 
         gap: 5px;
     }
+
+    #parent-container {
+        left: 0;
+        width: 100vw;
+    }
+
+    #first-person-introduction {
+        font-size: calc(5px + 1vmin);
+    }
+
+    #parent-container hr {
+        position: absolute;
+        top: 35vh;
+        left: 5vw;
+        width: 35vw;
+    }
+
+    #third-person-introduction {
+        top: 40vh;
+        font-size: calc(10px + 1vmin);
+    }
+
+
 }
 /*    #side-nav {*/
 /*        width: 100%; !* Make navigation bar full-width *!*/
