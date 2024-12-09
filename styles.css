@@ -342,6 +342,6 @@ body {
 
     #third-person-introduction {
         top: 40vh;
-        font-size: calc(10px + 1vmin);
+        font-size: calc(7.5px + 1vmin);
     }
 }
