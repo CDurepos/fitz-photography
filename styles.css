@@ -341,7 +341,7 @@ body {
     }
 
     #third-person-introduction {
-        top: 40vh;
+        top: 37.5vh;
         font-size: calc(7.5px + 1vmin);
     }
 }
