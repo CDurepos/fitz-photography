@@ -1,0 +1,61 @@
+#contact-form {
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+
+    width: 90vw;
+    height: 145vh;
+    background: linear-gradient(135deg, #D0D9CD, #828E84);
+}
+
+label {
+    display: block;
+    padding: 0.5em;
+}
+
+fieldset {
+    margin: 2.5vh 2.5vw;
+    border: none;
+
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.time-select {
+    margin: 1em;
+}
+
+.label {
+    display: block;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+
+    border: none;
+    border-radius: 10px;
+}
+
+#submit {
+    width: 20vw;
+    height: 2.5vh;
+
+    position: absolute;
+    left: 35vw;
+
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+
+}

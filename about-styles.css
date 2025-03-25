@@ -1,0 +1,96 @@
+:root {
+    --main-bg-color: #687169;
+
+    --nav-width: 10vw;
+    --gallery-width: 85vw;
+    --top-bottom-padding: 4vh;
+    --left-padding: 3vw;
+
+    --nav-bg-color: #505C45;
+    --nav-footer-color: #384031;
+    --top-nav-bg: linear-gradient(270deg, var(--nav-bg-color), #667558);
+
+    --hover-color: wheat;
+
+    font-family: 'Poppins', serif;
+    font-size: calc(10px + 1vmin);
+    color: white;
+
+    overflow-x: hidden;
+
+}
+
+#parent-container {
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    width: 90vw;
+    height: 150vh;
+    background: linear-gradient(45deg, #D0D9CD, #828E84);
+}
+
+#first-person {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    width: 35vw;
+    height: 30vh;
+    line-height: 200%;
+    font-size: calc(10px + 1vmin);
+}
+
+#photographer-image {
+    position: absolute;
+    top: 5vh;
+    left: 45vw;
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#photographer-image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.3);
+}
+
+#parent-container hr {
+    position: absolute;
+    top: 50vh;
+    left: 5vw;
+    width: 35vw;
+}
+
+#third-person {
+    position: absolute;
+    top: 55vh;
+    left: 5vw;
+    width: 70vw;
+    height: 30vh;
+    font-size: calc(10px + 1.5vmin);
+}
+
+@media (max-width: 738px) {
+    #parent-container {
+        left: 0;
+        width: 100vw;
+    }
+
+    #first-person-introduction {
+        font-size: calc(5px + 1vmin);
+    }
+
+    #parent-container hr {
+        position: absolute;
+        top: 35vh;
+        left: 5vw;
+        width: 35vw;
+    }
+
+    #third-person-introduction {
+        top: 37.5vh;
+        font-size: calc(7.5px + 1vmin);
+    }
+}

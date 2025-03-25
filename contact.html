@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fitz Photography</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contact-styles.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+    <body id="contact-page">
+        <div id="nav-placeholder"></div>
+        <script>
+            $(function(){
+                $("#nav-placeholder").load("nav.html");
+            });
+        </script>
+        <form id="contact-form">
+            <fieldset id="text-input">
+                <label class="label" for="name">Name<input id="name" type="text" placeholder="Ex: John Smith" required></label>
+                <label class="label" for="email">Email<input id="email" type="email" placeholder="Ex: Johnsmith@gmail.com" required></label>
+                <label class="label" for="phone">Phone<input id="phone" type="number" placeholder="Ex: (123) 456-7890" required></label>
+                <label class="label" for="date">Date<input id="date" type="date" placeholder="DD/MM/YYYY"></label>
+            </fieldset>
+            <fieldset id="button-input">
+                <legend>If you are requesting a shoot, please select a time below...</legend>
+                <label for="time-1"><input id="time-1" class="inline time-select" type="radio" value="800-900" name="time">8:00 AM - 9:00 AM</label>
+                <label for="time-2"><input id="time-2" class="inline time-select" type="radio" value="900-1000" name="time" checked>9:00 AM - 10:00 AM</label>
+                <label for="time-3"><input id="time-3" class="inline time-select" type="radio" value="1000-1100" name="time">10:00 AM - 11:00 AM</label>
+                <label for="time-4"><input id="time-4" class="inline time-select" type="radio" value="1100-1200" name="time">11:00 AM - 12:00 PM</label>
+                <label for="time-5"><input id="time-5" class="inline time-select" type="radio" value="1400-1500" name="time" checked>2:00 PM - 3:00 PM</label>
+                <label for="time-6"><input id="time-6" class="inline time-select" type="radio" value="1500-1600" name="time">3:00 PM - 4:00 PM</label>
+                <label for="time-7"><input id="time-7" class="inline time-select" type="radio" value="1600-1700" name="time">4:00 PM - 5:00 PM</label>
+            </fieldset>
+            <fieldset>
+                <legend>Other notes</legend>
+                <legend>(If you are requesting a shoot, please list the type of shoot you'd like to book)</legend>
+                <textarea id="notes" name="notes" rows="10" cols="30" placeholder="Begin typing here..."></textarea>
+            </fieldset>
+            <input type="submit" value="Submit" id="submit"/>
+        </form>
+    </body>
+
+</html>
